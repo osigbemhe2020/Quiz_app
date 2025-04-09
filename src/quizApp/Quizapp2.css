@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #0a0eed;
+
+  }
+  .start-form h1{
+    margin:2em auto 1.5em auto;
+    text-align: center;
+  }
+  .start-form{
+    margin: auto;
+    width:40%;
+    height:auto;
+    background-color: #eff5f8;
+    color: black;
+  }
+  .start-form label{
+    margin: 1em 4em 0em 4em;
+  }
+  .start-form input[type="text"]{
+    margin: 1em 4em 2em 4em;
+    padding: 6px 12px;
+    width:75%;
+  }
+
+  .start-form button{
+    margin: 1.2em  3em;
+    background-color: #0a69ed;
+    float: right;
+     
+  }
+
+  .start-screen,
+.score-container {
+  background-color: #0a69ed;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.start-button,
+#restart {
+  font-size: 1.3em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+}
+
+.display-container {
+    background-color:white;
+    padding: 3.1em 1.8em;
+    width: 80%;
+    max-width: 37.5em;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+  }
+
+  .header {
+    margin-bottom: 1.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.6em;
+    border-bottom: 0.1em solid #c0bfd2;
+  }
+  .timer-div {
+    background-color: #e1f5fe;
+    width: 7.5em;
+    border-radius: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7em 1.8em;
+  }
+
+  .question {
+    margin-bottom: 1.25em;
+    font-weight: 600;
+  }
+  .option-div {
+    font-size: 0.9em;
+    width: 100%;
+    padding: 1em;
+    margin: 1em 0;
+    text-align: left;
+    outline: none;
+    background: transparent;
+  }
+  
+  #next-button {
+    font-size: 1em;
+    margin-top: 1.5em;
+    background-color: #0a69ed;
+    color: #ffffff;
+    padding: 0.7em 1.8em;
+    border-radius: 0.3em;
+    float: right;
+  }
+  
+  #user-score {
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+
+  .sub-cont{
+    margin: 1em auto;
+    padding: 0.3em auto;
+    border-radius: 0.7em;
+    text-align: center;
+    width: 80%
+  }
+.op-text{
+  font-weight: 500;
+  font-size: 1.1em;
+  margin:0.3em auto;
+}
+.result-box{
+  color: #f9fdff;
+  background-color: transparent;
+  margin-bottom: 2em;
+  text-align: center;
+}

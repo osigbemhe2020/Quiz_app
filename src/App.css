@@ -1,8 +1,38 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
+.Kard{
+  max-width:300px;
+  background-color: rgb(10, 10, 17);
+  color: white;
+  padding: 0%;
+  margin: auto;
+}
+.img{
+  width: 100%;
+  height: 240px;
+}
+.mid-sec{
+  text-align: center;
+}
+.mid-sec > h2{
+  margin-bottom: 0px;
+}
+.mid-sec >h4{
+  margin-top: 0px;
+}
+button{
+  padding: 5px 12px ;
+}
+.flex{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-content:space-between;
+  align-items: center;
+  justify-content:space-between;
+}
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -36,3 +66,10 @@
     transform: rotate(360deg);
   }
 }
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 30px 25px;
+  height: 90px;
+}*/
