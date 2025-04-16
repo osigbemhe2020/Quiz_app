@@ -138,3 +138,8 @@ button {
   margin-bottom: 2em;
   text-align: center;
 }
+@media only screen and (max-width: 500px) {
+    .start-form{
+    width:80%;
+  }
+}
